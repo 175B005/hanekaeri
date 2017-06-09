@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveBall : MonoBehaviour {
-	public float vx = -10f;
-	public float vy = -10f;
+	public float vx = 10f;
+	public float vy = 10f;
 	private Rigidbody rig;
 
 	// Use this for initialization
